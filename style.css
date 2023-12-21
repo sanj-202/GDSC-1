@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.rec1,
+.rec2,
+.rec3,
+.rec4,
+.circle {
+    position: absolute;
+}
+
+.trophy-container {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#trophy {
+    transform: scale(0.2);
+}
+
+.rec1 {
+    width: 80px;
+    height: 160px;
+    top: 40%;
+    left: -8%;
+    background-color: #4285f5;
+    z-index: 20;
+}
+
+.rec2 {
+    width: 240px;
+    height: 90px;
+    top: 70%;
+    left: 15%;
+    background: #ec4038;
+}
+
+.rec4 {
+    width: 200px;
+    height: 90px;
+    top: 70%;
+    left: 5%;
+    background: #ffba00;
+    z-index: 15;
+    border-radius: 50px;
+}
+
+.rec3 {
+    width: 90px;
+    height: 80px;
+    top: -8%;
+    right: 8%;
+    background-color: #4285f6;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    top: -8%;
+    right: 36.5%;
+    border-radius: 50%;
+    background-color: #2faa52;
+}
+
+.top {
+    margin-top: 5%;
+    margin-right: -5%;
+    transform: scale(0.95);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.middle {
+    font-size: x-small;
+    margin-left: 30%;
+    position: absolute;
+    top: 20%;
+    color: #6a6d72;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.gdsc {
+    display: block;
+}
